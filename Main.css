@@ -13,19 +13,24 @@ div.LinkBorder {
 		text-align: center; 
 }
 
-/*
+
 div.image-container {
   display: grid;
-  grid-template: 150px /auto auto auto;
+  grid-template-columns: repeat (3, 2);
+  grid-gap: 5px;
 }
-*/
+
 
 div.container-inside {
 	display: grid;
-	grid-template-comlumns: repeat (3fr, 1fr);
+	grid-template-columns: repeat (3fr, 1fr);
 }
 
 .header-border {
 	width: 300px;
 	text-align: center;
+}
+
+.image-size {
+	width: 300px;
 }
