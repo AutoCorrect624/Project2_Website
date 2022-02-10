@@ -1,9 +1,27 @@
 
 
 div.MenuBox	{
-		border: 5px solid #434343
+		border: 5px solid #434343;
+		width: 100%;
+		width: 300px;
+		display: block;
+		margin: 50px 75px
 }
 
 div.LinkBorder { 
-		border: 5px solid #434343
+		border: 5px solid #434343;
+		text-align: center; 
+}
+
+
+div.image-container {
+  display: grid;
+  grid-template: 150px /auto auto auto;
+
+}
+
+
+div.container-inside {
+	display: grid;
+	grid-template-comlumns: repeat (1fr, 3fr);
 }
