@@ -13,13 +13,29 @@ div.LinkBorder {
 		text-align: center; 
 }
 
-
+/*
 div.image-container {
   display: grid;
   grid-template-columns: repeat (3, 2);
   grid-gap: 5px;
 }
+*/
 
+
+.child{
+  width: 19%;
+  margin: 0px 1%;
+
+  float: left;
+}
+
+#parent{
+  width: 960px;
+  max-width: 90%;
+  font-size: 1rem;
+  margin: auto;
+
+}
 
 div.container-inside {
 	display: grid;
