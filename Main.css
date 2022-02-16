@@ -1,4 +1,5 @@
 
+
 div.LinkBorder { 
 		border: 5px solid #434343;
 		text-align: center; 
@@ -11,7 +12,10 @@ div.container-inside {
 	background: #900E74;
 }
 
-
+div.topheader {
+	overflow: hidden;
+	background-color: red;
+}
 
 .floating-box {
     float: left;
