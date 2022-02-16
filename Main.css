@@ -14,7 +14,11 @@ div.container-inside {
 
 div.topheader {
 	overflow: hidden;
-	background-color: red;
+	background-color: #900E74;
+}
+
+body	{
+	background-color: #C28C18;
 }
 
 .floating-box {
@@ -23,6 +27,7 @@ div.topheader {
     height: 99%;
     margin: 5px;
     border: 1px solid;
+	background-color: #FFD738;
 }
 
 .floating-box2 {
@@ -31,6 +36,7 @@ div.topheader {
     height: 99%;
     margin: 5px;
     border: 1px solid;
+	background-color: #FFD738;
 }
 
 .container{
