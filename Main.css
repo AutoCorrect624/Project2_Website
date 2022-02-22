@@ -1,19 +1,30 @@
 
-
+/* Homepage */
 div.LinkBorder { 
-		border-top: 5px solid #434343;
+		border: 5px solid #434343;
 		padding-bottom: 5px;
+		padding-left: 30px;
+		padding-right: 30px;
 		padding-top: 5px;
 		text-align: center;
 		background: #900E74;
+		float: left;
+		width: 20.85%;
 }
 
 
+
+
+img.strawberrysquare {
+	float: left;
+}
+
+/*
 div.container-inside {
 	display: grid;
-	grid-template-columns: repeat (1, 3fr);
-	
+	grid-template-columns: repeat (1, 3fr);	
 }
+*/
 
 div.topheader {
 	overflow: hidden;
