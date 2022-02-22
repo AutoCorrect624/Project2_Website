@@ -1,15 +1,18 @@
 
 
 div.LinkBorder { 
-		border: 5px solid #434343;
-		text-align: center; 
+		border-top: 5px solid #434343;
+		padding-bottom: 5px;
+		padding-top: 5px;
+		text-align: center;
+		background: #900E74;
 }
 
 
 div.container-inside {
 	display: grid;
 	grid-template-columns: repeat (1, 3fr);
-	background: #900E74;
+	
 }
 
 div.topheader {
@@ -40,9 +43,10 @@ body	{
 }
 
 .container{
-  width: 66%;
+  width: 80%;
   height: auto;
   float: center;
   text-align: center;
 }
+
 
