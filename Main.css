@@ -60,4 +60,28 @@ body	{
   text-align: center;
 }
 
+.buttonClass {
+  font-size:15px;
+  font-family:Arial;
+  width:32%;
+  height:50px;
+  float: left;
+  border-width:1px;
+  color:#fff;
+  border-color:#566963;
+  font-weight:bold;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  box-shadow:inset 0px 1px 25px 15px #900E74;
+  text-shadow:inset 0px -1px 0px #2b665e;
+  text-align: center;
+  background:#E38CFF;
+  border: 3px solid #434343;
+}
 
+.buttonClass:hover {
+  background: linear-gradient(#6c7c7c, #768d87);
+}
+              
