@@ -84,7 +84,8 @@ body	{
 .buttonClass:hover {
   background: linear-gradient(#6c7c7c, #768d87);
 }
-              
+     
+	 
 /*AuBonLieu Page*/
 
 .Collapsible_List {
@@ -99,9 +100,29 @@ body	{
   font-size: 15px;
 }
 
+.Mini_Collapsible_List {
+  background-color: #900E74;
+  color: white;
+  cursor: pointer;
+  padding: 2px;
+  width: 25%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 8px;
+}
+
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
   background-color: #FFD738;
+}
+
+.Extra_Options {
+	font-size: 8px;
+}
+
+.Extra_Options_Spacing {
+	padding-top: 5px;
 }
