@@ -3,9 +3,69 @@
 
 <title>Menu</title>
 
-<p>test</p>
+<link rel="stylesheet" href="Main.css"/>
+
+		<div class="topheader">
+		<img src = "Images/strawberrysquare.svg" alt = "Strawberry Square" width = "150" height = "150" class = "image-size"> 	
+		</div>
+		
+<body>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Signature Bowls</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Freshido Special</dt>
+			<dd><i>Salmon, tuna, cucumber, mango, edamame, crab salad, masago, freshido classic and sriracha aioli.</i></dd>
+			<dd>Rg. - $11.95</dd>
+			<dd>Lg. - $14.50</dd>
+		<dt>Ahi Tuna</dt>
+			<dd><i>Tuna, mango, cucumber, ogo seaweed, purple cabbage, sweet onion, masago, crab salad, furikake, sriracha aioli.</i></dd>
+			<dd>Rg. - $11.95</dd>
+			<dd>Lg. - $14.50</dd>
+		<dt>Gangnam Style</dt>
+			<dd><i>Bulgogi beef, cucumber, carrot, edamame, cilantro, egg, kimchi, bean sprout, scallion, sesame seeds, sweet gochu.</i></dd>
+			<dd>Rg. - $11.95</dd>
+			<dd>Lg. - $14.50</dd>
+		<dt>Bibim Chicken</dt>
+			<dd><i>Bulgogi chicken, sweet mushroom, baby spinach, pickled red pepper, corn, eggplant, bean sprout, scallion, sesame seed, creamy white.</i></dd>
+			<dd>Rg. - $11.95</dd>
+			<dd>Lg. - $14.50</dd>
+		<dt>Wasabi Shrimp and Scallop</dt>
+			<dd><i>Shrimp, scallop, hijiki seaweed, edamame, cucumber, seaweed salad, crab salad, scallion, sesame seed, wasabi aioli.</i></dd>
+			<dd>Rg. - $11.95</dd>
+			<dd>Lg. - $14.50</dd>
+		<dt>Citrus Salmon</dt>
+			<dd><i>Salmon, ogo seaweed, mango, cucumber, crab salad, seaweed salad, fried onion, citrus fresh.</i></dd>
+			<dd>Rg. - $11.95</dd>
+			<dd>Lg. - $14.50</dd>
+		<dt>Smoky Beef</dt>
+			<dd><i>Bulgogi beef, romaine heart, tomato, sweet onion, corn, pickled red pepper, scallion, sesame seed, smoky lava.</i></dd>
+			<dd>Rg. - $11.95</dd>
+			<dd>Lg. - $14.50</dd>
+	</dl>
+</div>
 
 
+<script>
+var coll = document.getElementsByClassName("Collapsible_List");
+var i;
 
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
 
+</script>
+</body>
 </html>
