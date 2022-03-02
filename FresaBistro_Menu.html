@@ -3,9 +3,162 @@
 
 <title>Menu</title>
 
-<p>test</p>
+<link rel="stylesheet" href="Main.css"/>
+
+		<div class="topheader">
+		<img src = "Images/strawberrysquare.svg" alt = "Strawberry Square" width = "150" height = "150" class = "image-size"> 	
+		</div>
+		
+<body>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Appetizers</h2></button>
+<div class = "content">
+
+
+	<dl>
+		<dt>Mozzarella Sticks</dt>
+			<dd>$4.25</dd>
+		<dt>Fried Zucchini</dt>
+			<dd>$4.25</dd>
+		<dt>French Fries</dt>
+			<dd>$3.25</dd>
+		<dt>Pizza Fries</dt>
+			<dd>$5.50</dd>
+		<dt>Cheese Fries</dt>
+			<dd>$3.75</dd>
+		<dt>Bacon Cheese Fries</dt>
+			<dd>$5.50</dd>
+		<dt>Pizza Bread</dt>
+			<dd>$5.95</dd>
+		<dt>Bread Stickes</dt>
+			<dd>$3.50</dd>
+		<dt>Onion Rings</dt>
+			<dd>$3.50</dd>
+		<dt>Fried Mushrooms</dt>
+			<dd>$5.50</dd>
+		<dt>Fried Jalopenos Peppers</dt>
+			<dd>$5.50</dd>
+		<dt>Turkey Scotchada</dt>
+			<dd><i>Lettuce, Tomatoes, Onions, & Mayo</i></dd>
+			<dd>$6.99</dd>
+		<dt>Ham Scothchada</dt>
+			<dd><i>Lettuce, Tomatoes, Onions, & Mayo</i></dd>
+			<dd>$6.99</dd>
+		<dt>Garlic Bread</dt>
+			<dd>$2.50</dd>
+		<dt>Bruschetta</dt>
+			<dd><i>Mozzarella, Tomatoes, Garlic, Parsley, & Cliantro</i></dd>
+			<dd>$6.50</dd>
+		<dt>Fries & Boneless Chicken Fingers</dt>
+			<dd>$6.95</dd>
+		<dt>Wings</dt>
+			<dd><i>Lettuce, Tomatoes, Onions, & Mayo</i></dd>
+			<button  type = "button" class= "Mini_Collapsible_List"><h3><i>Options</i></h3></button>
+					<dl class = "Extra_Options">
+						<dt class = "Extra_Options_Spacing">&emsp;&emsp;6 pc.</dt>
+							<dd>&emsp;$5.50</dd>
+						<dt class = "Extra_Options_Spacing">&emsp;&emsp;12 pc.</dt>
+							<dd>&emsp;$9.99</dd>
+						<dt class = "Extra_Options_Spacing">&emsp;&emsp;24 pc.</dt>
+							<dd>&emsp;$17.99</dd>	
+					</dl>
+		<dt>Fried Calamari</dt>
+			<dd>$9.95</dd>
+		<dt>Fried Chicken</dt>
+			<dd>$1.75 per pc.</dd>
+	</dl>
+</div>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Salads</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Tuna Salad</dt>
+			<dd>$6.99</dd>
+		<dt>Chicken Salad</dt>
+			<dd><i>Lettuce, Tomatoes, Onions, & Eggs</i></dd>
+			<dd>$8.99</dd>
+		<dt>Buffalo Chicken Salad</dt>
+			<dd>$8.99</dd>
+		<dt>Tahi Chicken Salad</dt>
+			<dd><i>Tahi Sauce, Lettuce, Tomatoes, Onions, & Mozzarella</i></dd>
+			<dd>$8.99</dd>
+		<dt>Barbecue Chicken Salad</dt>
+			<dd><i>Lettuce, Tomatoes, Eggs, Onions, & Mozzarella</i></dd>
+			<dd>$8.99</dd>
+		<dt>Crispy Chicken Salad</dt>
+			<dd><i>Lettuce, Tomatoes, Eggs, Onions, & Mozzarella</i></dd>
+			<dd>$8.99</dd>
+		<dt>Greek Chicken Salad</dt>
+			<dd><i>Lettuce, Tomatoes, Onions, Green Peppers, Olives, & Feta Cheese</i></dd>
+			<dd>$7.99</dd>
+		<dt>Pittsburg Salad</dt>
+			<dd><i>French Fries, Lettuce, Tomatoes, Onions, Eggs & Mozzarella</i></dd>
+			<dd>$8.99</dd>
+		<dt>Salmon Ceasar Salad</dt>
+			<dd><i>Roman Lettuce, Tomatoes, Onions, Croutons, & Parmesan Cheese</i></dd>
+			<dd>$14.99</dd>
+		<dt>Chicken Ceasar Salad</dt>
+			<dd><i>Roman Lettuce, Tomatoes, Onions, Croutons, & Parmesan Cheese</i></dd>
+			<dd>$8.99</dd>
+		<dt>Toasted Salad</dt>
+			<dd><i>Lettuce, Tomatoes, Onions, & Mozzarella</i></dd>
+			<dd>$8.99</dd>
+		<dt>Southwest Salad</dt>
+			<dd>$9.99</dd>
+		<dt>Summer Breeze Salad</dt>
+			<dd>$8.99</dd>
+		<dt>Taco Salad</dt>
+			<dd><i>Lettuce, Tomatoes, Onions, & Mayo</i></dd>
+			<dd>$9.99</dd>
+		<dt>Chef's Salad</dt>
+			<dd><i>Turkey, Ham, Salami, Lettuce, Tomatoes, Onions, & Eggs</i></dd>
+			<dd>$9.99</dd>
+		<dt>AntiPasto Salad</dt>
+			<dd><i>Ham, Turkey, Provolone, Mozzarella, & Black Olives</i></dd>
+			<dd>$5.99</dd>
+	</dl>
+</div>
 
 
 
 
+<script>
+var coll = document.getElementsByClassName("Collapsible_List");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+var coll = document.getElementsByClassName("Mini_Collapsible_List");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
 </html>
