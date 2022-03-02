@@ -3,9 +3,112 @@
 
 <title>Menu</title>
 
-<p>test</p>
+<link rel="stylesheet" href="Main.css"/>
+
+		<div class="topheader">
+		<a href = "Index.html"><img src = "Images/strawberrysquare.svg" alt = "Strawberry Square" width = "150" height = "150" class = "image-size"></a>
+		</div>
+		
+<body>
 
 
+<button  type = "button" class= "Collapsible_List"><h2>Asian Cuisine</h2>
+<p><i>w. Fried Rice/White Rice/Lo Mein Noodle</i></p>
+</button>
+<div class = "content">
 
+	<dl>
+		<dt>General Tso's Chicken</dt>
+			<dd>$6.50</dd>
+		<dt>Orange Chicken</dt>
+			<dd>$6.50</dd>
+		<dt>Sesame Chicken</dt>
+			<dd>$6.50</dd>
+		<dt>Chicken w. Broccoli</dt>
+			<dd>$5.99</dd>
+		<dt>Beef w. Broccoli</dt>
+			<dd>$6.99</dd>
+		<dt>Shrimp w. Broccoli</dt>
+			<dd>$6.99</dd>
+		<dt>Pepper Steak w. Onion</dt>
+			<dd>$6.99</dd>
+		<dt>Mongolian Chicken/Beef</dt>
+			<dd>$6.99</dd>
+		<dt>Chicken w. String Bean</dt>
+			<dd>$6.50</dd>
+		<dt>Chicken w. Mixed Vegetables</dt>
+			<dd>$6.50</dd>
+		<dt>Bourbon Chicken</dt>
+			<dd>$6.50</dd>
+		<dt>Unagi Don (Eel Rice Bowl)</dt>
+			<dd>$6.99</dd>
+		<dt>Shrimp Tempura</dt>
+			<dd>$6.99</dd>
+	</dl>
+</div>
 
+	<br>
+	<br>
+	
+<button  type = "button" class= "Collapsible_List"><h2>Fried Rice</h2>
+<p><i>w. Onion, Peas, & Carrots</i></p>
+</button>
+<div class = "content">
+
+	<dl>
+		<dt>Vegetable</dt>
+			<dd>$5.25</dd>
+		<dt>Chicken</dt>
+			<dd>$5.50</dd>
+		<dt>Roast Pork</dt>
+			<dd>$5.50</dd>
+		<dt>Beef</dt>
+			<dd>$5.99</dd>
+		<dt>Shrimp</dt>
+			<dd>$5.99</dd>
+		<dt>Combination</dt>
+			<dd>$6.99</dd>
+	</dl>
+</div>
+
+	<br>
+	<br>
+	
+<button  type = "button" class= "Collapsible_List"><h2>Lo Mein or Rice Noodle</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Vegetable</dt>
+			<dd>$5.25</dd>
+		<dt>Chicken</dt>
+			<dd>$5.50</dd>
+		<dt>Roast Pork</dt>
+			<dd>$5.50</dd>
+		<dt>Beef</dt>
+			<dd>$5.99</dd>
+		<dt>Shrimp</dt>
+			<dd>$6.50</dd>
+		<dt>Combination</dt>
+			<dd>$7.29</dd>
+	</dl>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("Collapsible_List");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+</script>
+</body>
 </html>
