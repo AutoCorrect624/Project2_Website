@@ -86,7 +86,7 @@ body	{
 }
      
 	 
-/*AuBonLieu Page*/
+/*Collapsible*/
 
 .Collapsible_List {
   background-color: #900E74;
@@ -125,4 +125,10 @@ body	{
 
 .Extra_Options_Spacing {
 	padding-top: 5px;
+}
+
+/*Freshido*/
+
+h2.Build_Your_Own {
+	text-align: center;
 }
