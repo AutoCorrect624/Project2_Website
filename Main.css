@@ -13,13 +13,11 @@ div.LinkBorder {
 }
 
 
-
-
 img.strawberrysquare {
 	float: left;
 }
 
-/*
+/* EXTRA CODE 
 div.container-inside {
 	display: grid;
 	grid-template-columns: repeat (1, 3fr);	
@@ -129,6 +127,8 @@ body	{
 
 /*Freshido*/
 
-h2.Build_Your_Own {
+h1.Build_Your_Own {
 	text-align: center;
 }
+
+
