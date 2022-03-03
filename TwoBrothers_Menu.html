@@ -3,9 +3,171 @@
 
 <title>Menu</title>
 
-<p>test</p>
+<link rel="stylesheet" href="Main.css"/>
 
+		<div class="topheader">
+		<a href = "Index.html"><img src = "Images/strawberrysquare.svg" alt = "Strawberry Square" width = "150" height = "150" class = "image-size"></a>
+		</div>
+		
+<body>
 
+	<br>
+	<br>
 
+<button  type = "button" class= "Collapsible_List"><h2>White Pizza</h2></button>
+<div class = "content">
 
+	<dl>
+		<dt>Original White Pizza</dt>
+			<dd>$15.00</dd>
+		<dt>Spinach Tomator White Pizza</dt>
+			<dd>$19.00</dd>
+		<dt>Tomato Basil White Pizza</dt>
+			<dd>$17.00</dd>
+		<dt>Broccoli Tomato White Pizza</dt>
+			<dd>$19.00</dd>	
+	</dl>
+</div>
+
+<button  type = "button" class= "Collapsible_List"><h2>The Pizza Supreme</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Two Brother's Pizza Margherita Pizza</dt>
+			<dd>$21.99</dd>
+		<dt>Eggplant Parmesan Pizza</dt>
+			<dd>$22.99</dd>
+		<dt>Barbecured Chicken Pizza</dt>
+			<dd>$21.99</dd>
+		<dt>Taco Pizza</dt>
+			<dd>$22.99</dd>
+		<dt>Cowgirl Pizza</dt>
+			<dd>$21.99</dd>
+		<dt>Hawaiian Pizza</dt>
+			<dd>$21.99</dd>
+		<dt>Chicken Parmesan Pizza</dt>
+			<dd>$22.99</dd>
+		<dt>Pizza Supreme</dt>
+			<dd>$22.99</dd>
+		<dt>Sienna Pizza</dt>
+			<dd>$22.99</dd>
+		<dt>Cowboy Pizza</dt>
+			<dd>$21.99</dd>
+		<dt>Buffalo Chicken Pizza</dt>
+			<dd>$21.99</dd>
+		<dt>Meat Lover's Pizza</dt>
+			<dd>$22.99</dd>
+	</dl>
+</div>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Chicago Style Deep Dish Pizza</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Plain Chicago Deep Dish Pizza</dt>
+			<dd>$18.00</dd>
+		<dt>Chicken Bacon Ranch Deep Dish Pizza</dt>
+			<dd>$22.99</dd>
+		<dt>Cheddar Cheesesteak Deep Dish Pizza</dt>
+			<dd>$22.99</dd>
+		<dt>Cheese Steak Deep Dish Pizza</dt>
+			<dd>$23.99</dd>
+		<dt>Buffalo Chicken Deep Dish Pizza</dt>
+			<dd>$22.99</dd>
+		<dt>Cowboy Deep Dish Pizza</dt>
+			<dd>$22.99</dd>
+		<dt>Meat Lovers Deep Dish Pizza</dt>
+			<dd>$23.99</dd>
+		<dt>Vegetarian Deep Dish Pizza</dt>
+			<dd>$22.99</dd>
+	</dl>
+</div>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Grandma's Pizza</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Grandma's Pizza Original</dt>
+			<dd>$22.00</dd>
+		<dt>Grandma's Butcher's Block</dt>
+			<dd>$25.00</dd>
+	</dl>
+</div>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Stuffed Pizza</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Stuffed Pizza</dt>
+			<dd>$25.99</dd>
+		<dt>Stuffed Veggie Lovers Pizza</dt>
+			<dd>$25.99</dd>
+		<dt>Chicken Buffalo Stuffed Pizza</dt>
+			<dd>$25.99</dd>
+		<dt>Steak Stuffed Pizza</dt>
+			<dd>$25.99</dd>
+	</dl>
+</div>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Appetizers</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Chips</dt>
+			<dd>$0.85</dd>
+		<dt>French Fries</dt>
+			<dd>$4.50</dd>
+		<dt>Cheese Fries</dt>
+			<dd>$6.00</dd>
+		<dt>Pizza Fries</dt>
+			<dd>$6.50</dd>
+		<dt>Bacon Cheese Fries</dt>
+			<dd>$5.85</dd>
+		<dt>Garlic Knots</dt>
+			<dd>$7.00</dd>
+		<dt>Onion Rings</dt>
+			<dd>$5.85</dd>
+		<dt>Mozzarella Sticks</dt>
+			<dd>$6.49</dd>
+		<dt>Breaded Mushrooms</dt>
+			<dd>$6.59</dd>
+		<dt>Chicken Fingers</dt>
+			<dd>$6.50</dd>
+		<dt>Chicken Fingers with Fries</dt>
+			<dd>$9.25</dd>
+		<dt>Fried Fish</dt>
+			<dd>$8.00</dd>
+	</dl>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("Collapsible_List");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+</script>
+</body>
 </html>
