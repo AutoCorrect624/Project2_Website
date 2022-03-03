@@ -3,9 +3,111 @@
 
 <title>Menu</title>
 
-<p>test</p>
+<link rel="stylesheet" href="Main.css"/>
+
+		<div class="topheader">
+		<a href = "Index.html"><img src = "Images/strawberrysquare.svg" alt = "Strawberry Square" width = "150" height = "150" class = "image-size"></a>
+		</div>
+		
+<body>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Tacos</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Cantina Crispy Chicken Taco w. Chipotle</dt>
+			<dd>$2.39</dd>
+		<dt>Cantina Crispy Chicken Taco w. Avocado Ranch</dt>
+			<dd>$2.39</dd>
+		<dt>Doritos Cheesy Gordita Crunch - Flaming Hot Cool Ranch</dt>
+			<dd>$4.19</dd>
+		<dt>Flamin' Hot Cool Ranch Doritos Locos Tacos Supreme</dt>
+			<dd>$2.49</dd>
+		<dt>Flamin' Hot Cool Ranch Doritos Locos Tacos</dt>
+			<dd>$1.99</dd>
+		<dt>Black Bean Soft Taco </dt>
+			<dd>$1.39</dd>
+		<dt>Cheesy Gordita Crunch</dt>
+			<dd>$4.19</dd>
+		<dt>Doritos Cheesy Gordita Crunch - Nacho Cheese</dt>
+			<dd>$4.19</dd>
+		<dt>Soft Taco </dt>
+			<dd>$1.49</dd>
+		<dt>Crunchy Taco</dt>
+			<dd>$1.49</dd>
+		<dt>Crunch Taco Supreme</dt>
+			<dd>$2.19</dd>
+		<dt>Soft Taco Supreme</dt>
+			<dd>$2.19</dd>
+		<dt>3 Crunch Taco Supreme Combo</dt>
+			<dd>$7.19</dd>
+		<dt>3 Crunch Taco Combo</dt>
+			<dd>$6.29</dd>
+		<dt>Nacho Cheese Doritos Locos Tacos</dt>
+			<dd>$2.19</dd>
+		<dt>Nacho Cheese Doritos Locos Tacos Supreme</dt>
+			<dd>$2.69</dd>
+		<dt>Chalupa Supreme</dt>
+			<dd>$3.69</dd>
+		<dt>Supreme Taco Party Pack</dt>
+			<dd>$18.99</dd>
+	</dl>
+</div>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Burritos</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Veggie Burito Supreme</dt>
+			<dd>$3.89</dd>
+		<dt>Bean Burito</dt>
+			<dd>$1.49</dd>
+		<dt>Beefy 5-layer Burrito</dt>
+			<dd>$2.79</dd>
+		<dt>Quesarito</dt>
+			<dd>$3.79</dd>
+		<dt>Burito Supreme</dt>
+			<dd>$3.89</dd>
+		<dt>Crunchwrap Supreme</dt>
+			<dd>$3.99</dd>
+	</dl>
+</div>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Burritos</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Veggie Burito Supreme</dt>
+			<dd>$3.89</dd>
+	</dl>
+</div>
 
 
+<script>
+var coll = document.getElementsByClassName("Collapsible_List");
+var i;
 
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
 
+</script>
+</body>
 </html>
