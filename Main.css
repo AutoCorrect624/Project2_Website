@@ -27,7 +27,9 @@ div.container-inside {
 div.topheader {
 	overflow: hidden;
 	background-color: #900E74;
+	align-items: center;
 }
+
 
 body	{
 	background-color: #C28C18;
@@ -91,7 +93,7 @@ body	{
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 50%;
   border: none;
   text-align: left;
   outline: none;
@@ -125,10 +127,15 @@ body	{
 	padding-top: 5px;
 }
 
-/*Freshido*/
+div.test {
+ text-align: center;
+}
+
+/*Freshido Page*/
 
 h1.Build_Your_Own {
 	text-align: center;
 }
 
+/*Taco Bell Page*/
 
