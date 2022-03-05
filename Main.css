@@ -54,11 +54,12 @@ body	{
 }
 
 .container{
-  width: 80%;
+  width: 90%;
   height: auto;
-  float: center;
   text-align: center;
+  margin: auto;
 }
+
 
 .buttonClass {
   font-size:15px;
