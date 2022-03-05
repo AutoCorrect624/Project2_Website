@@ -44,8 +44,7 @@ div.spacing {
 
 }
 
-.Crepe_image {
-	padding: 10px;
+img.Food_image {
 	float: left;
 	border: solid 5px;
 	border-color: #900E74;
