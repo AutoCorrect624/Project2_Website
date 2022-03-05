@@ -1,6 +1,9 @@
 
 
+
 /* Au Bon Lieu About page */
+
+
 
 div.header_Container {
 	width: 60%;
@@ -11,19 +14,20 @@ div.header_Container {
 }
 
 
-
 div.Contact {
 	border: solid 5px;
 	border-color: #900E74;
 	float: right;
 	width: 60%;	
+	background: #DADADA;
 }
 
-div.Contact_2 {
+div.Hours {
 	border: solid 5px;
 	border-color: #900E74;
 	float: right;
-	width: 60%;	
+	width: 60%;
+	background: #DADADA;
 
 }
 
@@ -43,4 +47,20 @@ div.spacing {
 .Crepe_image {
 	padding: 10px;
 	float: left;
+	border: solid 5px;
+	border-color: #900E74;
+}
+
+div.Main_Container {
+	text-align: center;
+	width: 80%;
+	border: solid 5px;
+	border-color: #900E74;
+	background: #DADADA;
+	
+}
+
+div.Main_Text {
+	display: box;
+	text-align: center;
 }
