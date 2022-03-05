@@ -24,6 +24,13 @@ div.Contact_2 {
 	border-color: #900E74;
 	float: right;
 	width: 60%;	
+
+}
+
+div.spacing {
+	padding: 10px;
+	float: right;
+	width: 60%;	
 }
 
 .text {
