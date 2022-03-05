@@ -1,7 +1,9 @@
+
+
 /* Au Bon Lieu About page */
 
-div.AuBonlieu_Container {
-	width: 80%;
+div.Container {
+	width: 60%;
 	background: gray;
 	border: solid 5px;
 	border-color: #900E74;
