@@ -2,10 +2,38 @@
 
 /* Au Bon Lieu About page */
 
-div.Container {
+div.header_Container {
 	width: 60%;
 	background: gray;
 	border: solid 5px;
 	border-color: #900E74;
 	text-align: center;
+}
+
+
+
+div.Contact {
+	border: solid 5px;
+	border-color: #900E74;
+	float: right;
+	width: 60%;	
+}
+
+div.Contact_2 {
+	border: solid 5px;
+	border-color: #900E74;
+	float: right;
+	width: 60%;	
+}
+
+.text {
+	text-align:center;
+	display: box;
+	
+
+}
+
+.Crepe_image {
+	padding: 10px;
+	float: left;
 }
