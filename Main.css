@@ -24,10 +24,12 @@ div.container-inside {
 }
 */
 
+
 div.topheader {
 	overflow: hidden;
 	background-color: #900E74;
-	align-items: center;
+
+
 }
 
 
@@ -86,7 +88,18 @@ body	{
 .buttonClass:hover {
   background: linear-gradient(#6c7c7c, #768d87);
 }
-     
+
+.Restaurant_Title {
+	text-align:center;
+	float: center;
+	justify-content: center;
+
+}
+
+.image-size-title {
+	float: left;
+}
+	
 	 
 /*Collapsible*/
 
@@ -129,7 +142,7 @@ body	{
 	padding-top: 5px;
 }
 
-div.test {
+div.Page_Title {
  text-align: center;
 }
 
@@ -139,7 +152,6 @@ h1.Build_Your_Own {
 	text-align: center;
 }
 
-/*About*/
 
 
 
