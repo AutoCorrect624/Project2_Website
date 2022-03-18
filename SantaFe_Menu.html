@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>	
+<html lang="en-US">
+
+<title>Santa Fe Mexican Grille Menu</title>
+
+<link rel="stylesheet" href="Main.css"/>
+
+		<div class="topheader">
+		<a href = "Index.html"><img src = "Images/strawberrysquare.svg" alt = "Strawberry Square" width = "150" height = "150" class = "image-size-title"></a>
+		<h1 class = "Restaurant_Title">Santa Fe Mexican Grille</h1>
+		</div>
+		
+<body>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Coffee Drinks</h2></button>
+<div class = "content">
+
+
+	<dl>
+		<dt>Coffee</dt>
+			<dd>$2.00</dd>
+		<dt>Americano</dt>
+			<dd><i>Double Shot / 10oz water</i></dd>
+			<dd>$3.00</dd>
+		<dt>Espresso</dt>
+			<dd><i>Double Shot</i></dd>
+			<dd>$3.00</dd>
+		<dt>Cortado</dt>
+			<dd><i>Double Shot / 2oz milk</i></dd>
+			<dd>$3.50</dd>
+		<dt>Cappuccino</dt>
+			<dd><i>Double Shot / 6oz milk</i></dd>
+			<dd>$4.00</dd>
+		<dt>Latte</dt>
+			<dd><i>Double Shot / 10oz milk</i></dd>
+			<dd>$4.50</dd>
+		<dt>Mocha Latte</dt>
+			<dd><i>Double Shot / 10oz milk / Housemade Chocolate</i></dd>
+			<dd>$5.25</dd>
+		<dt>Vanilla Latte</dt>
+			<dd><i>Double Shot / 10oz milk / Housemade vanilla</i></dd>
+			<dd>$5.25</dd>
+		<dt>Flash Iced Coffee</dt>
+			<dd>$3.00</dd>
+		<dt>Cold Jar</dt>
+			<dd><i>Double Shot / Brown Sugar / Milk / Shaken no stirred</i></dd>
+			<dd>$4.50</dd>
+		<dt>Espresso & Tonic</dt>
+			<dd><i>Double Shot / Tonic / Bitters</i></dd>
+			<dd>$4.50</dd>
+		<dt>NOLA Iced Coffee Brew</dt>
+			<dd><i>Cold Brew / Milk / Chicory Simple Syrup</i></dd>
+			<dd>$4.00</dd>
+	</dl>
+	
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Non - Coffee Drinks</h2></button>
+<div class = "content">
+
+
+	<dl>
+		<dt>Hot Cocoa</dt>
+			<dd><i>Steamed Milk / House made Chocolate</i></dd>
+			<dd>$3.50</dd>
+		<dt>Chai Spiced Latte</dt>
+			<dd><i>Chai Spiced Syrup / 10oz Milk</i></dd>
+			<dd>$4.00</dd>
+		<dt>Tea</dt>
+			<dd><i>Hot or Iced</i></dd>
+			<dd>$3.00</dd>
+	</dl>
+	
+	br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Beans</h2></button>
+<div class = "content">
+
+
+	<dl>
+		<dt>Colombia Sur De Hulia</dt>
+			<dd><i>Citrus / Toasted Nuts / Milk Chocolate</i></dd>
+			<dd>$17.00</dd>
+		<dt>Friend Blend</dt>
+			<dd><i>Citrus / Caramel / Milk Chocolate</i></dd>
+			<dd>$17.00</dd>
+		<dt>Dark Star Blend</dt>
+			<dd><i>Dark Chocolate / Berries / Toasted Nuts</i></dd>
+			<dd>$17.00</dd>
+		<dt>Debbie Decaf</dt>
+			<dd><i>Grahm Craker / Citrus / Berry</i></dd>
+			<dd>$17.00</dd>
+	</dl>
+	
+	
+</div>
+
+
+
+
+<script>
+var coll = document.getElementsByClassName("Collapsible_List");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>
