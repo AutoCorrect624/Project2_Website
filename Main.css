@@ -132,6 +132,7 @@ body	{
   display: none;
   overflow: hidden;
   background-color: #FFD738;
+  width: 45%;
 }
 
 .Extra_Options {
@@ -144,6 +145,18 @@ body	{
 
 div.Page_Title {
  text-align: center;
+}
+
+/*Menus*/
+
+div.Extra_Image_Container {
+	padding: 75px;
+	float: right;
+}
+
+.Extra_Image {
+	border: solid 5px;
+	border-color: #900E74;
 }
 
 /*Freshido Page*/
