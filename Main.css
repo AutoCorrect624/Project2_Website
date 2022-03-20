@@ -92,6 +92,8 @@ body	{
 	text-align:center;
 	float: center;
 	justify-content: center;
+	color: white;
+	font-size: 50px;
 
 }
 
@@ -150,13 +152,22 @@ div.Page_Title {
 /*Menus*/
 
 div.Extra_Image_Container {
-	padding: 75px;
+	padding-right: 75px;
+	padding-top: 35px;
 	float: right;
 }
 
 .Extra_Image {
 	border: solid 5px;
 	border-color: #900E74;
+}
+
+/*Tropical Smoothie Page*/
+
+.Extra_Image_Tropical {
+	border: solid 5px;
+	border-color: #900E74;
+	background-color:white;
 }
 
 /*Freshido Page*/
