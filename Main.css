@@ -127,10 +127,9 @@ body	{
   text-align: center;
   background:#E38CFF;
   border: 3px solid #434343;
-  justify-content: center; 
-  
-  
+  justify-content: center;   
 }
+
 
 .buttonClass:hover {
   background: linear-gradient(#6c7c7c, #768d87);
