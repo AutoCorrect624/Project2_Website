@@ -13,12 +13,12 @@ img.strawberrysquare {
 	float: right;
 	overflow: hidden;
 	padding-right: 50px;
-	padding-top: 30px;
+	padding-top: 32px;
  
 }
 
 .dropdown .dropbtn {
-	font-size: 40px;    
+	font-size: 35px;    
 	border: none;
 	outline: none;
 	color: white;
@@ -137,13 +137,16 @@ body	{
 }
 
 
-.Restaurant_Title {
+.Page_Title {
 	text-align:center;
 	float: center;
 	justify-content: center;
 	color: white;
 	font-size: 50px;
+}
 
+.Restaurant_Title {
+	font-size: 20px;
 }
 
 .image-size {
