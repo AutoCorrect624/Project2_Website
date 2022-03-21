@@ -13,6 +13,7 @@ img.strawberrysquare {
 	float: right;
 	overflow: hidden;
 	padding-right: 50px;
+	padding-top: 30px;
  
 }
 
@@ -145,6 +146,9 @@ body	{
 
 }
 
+.image-size {
+
+}
 
 .image-size-title {
 	float: left;
