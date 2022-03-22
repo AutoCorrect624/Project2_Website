@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>	
+<html lang="en-US">
+
+<title>Smoothie Cafe Menu</title>
+
+<link rel="stylesheet" href="Main.css"/>
+
+		<div class="topheader">
+		<a href = "Index.html"><img src = "Images/strawberrysquare.svg" alt = "Strawberry Square" width = "150" height = "150" class = "image-size-title"></a>
+		<h1 class = "Page_Title">Tropical Smoothie Cafe</h1>
+		</div>
+		
+<body>
+	
+	<h1 class = "Page_Title">Vegetarian</h1>
+	
+	<div class = "Extra_Image_Container">
+	<img src = "Images/Extra_Food/BuffaloChickenWrap_TropicalSmoothie.png" alt = "Buffalo Chicken Wrap" width = "450" height = "450" class = "Extra_Image_Tropical"></a>
+	</div>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Breakfasts</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Peanut Butter Banana Crunch Flatbread</dt>
+			<dd>$5.99</dd>
+		
+	</dl>
+</div>
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Wraps</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Hummus Veggie</dt>
+			<dd>$8.49</dd>
+	</dl>
+</div>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Quesadillas</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Three Cheese</dt>
+			<dd>$4.99</dd>
+	</dl>
+</div>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Sides</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Maple Kissed Sweet Potatoes</dt>
+			<dd>$1.99</dd>
+		<dt>Jalapeño Corn</dt>
+			<dd>$1.99</dd>
+		<dt>Kale & Apple Slaw</dt>
+			<dd>$0.99</dd>
+		<dt>Whole Fruit</dt>
+			<dd><i>Apple or Bannana</i>
+			<dd>$0.95</dd>
+		<dt>Chips</dt>
+			<dd>$1.29</dd>
+	</dl>
+</div>
+
+	<div class = "Extra_Image_Container">
+	<img src = "Images/Extra_Food/ChickenCaprese_TropicalSmoothie.png" alt = "Chicken Caprese Flatbread" width = "450" height = "450" class = "Extra_Image_Tropical"></a>
+	</div>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Super Veggie Smoothies</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Island Green</dt>
+			<dd>$6.49</dd>
+		<dt>Detox Island Green</dt>
+			<dd>$6.49</dd>
+		<dt>Avocolada</dt>
+			<dd>$6.49</dd>
+	</dl>
+</div>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Balanced Fusion Smoothies</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Peanut Paradise</dt>
+			<dd>$6.49</dd>
+		<dt>Chia Banana Boost</dt>
+			<dd>$6.49</dd>
+		<dt>Triple Berry Oat</dt>
+			<dd>$6.49</dd>
+		<dt>Lean Machine</dt>
+			<dd>$6.49</dd>
+		<dt>Acai Berry Boost</dt>
+			<dd>$6.49</dd>
+	</dl>
+</div>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Tropical Treats Smoothies</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Bahama Mama</dt>
+			<dd>$6.49</dd>
+		<dt>Peanut Butter Cup</dt>
+			<dd>$6.49</dd>
+		<dt>Beach Bumb</dt>
+			<dd>$6.49</dd>
+		<dt>Mocha Madness</dt>
+			<dd>$6.49</dd>
+	</dl>
+</div>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Kids</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Cheese Quesadilla</dt>
+			<dd>$4.49</dd>
+		<dt>Chicken and Cheese Quesadilla</dt>
+			<dd>$5.99</dd>
+		<dt>Turkey & Cheddar Wrap</dt>
+			<dd>$4.49</dd>
+		<dt>Classic Grilled Cheese</dt>
+			<dd>$4.99</dd>	
+	</dl>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("Collapsible_List");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+</script>
+</body>
+</html>
