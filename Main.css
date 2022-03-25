@@ -6,7 +6,6 @@ img.strawberrysquare {
 	float: left;
 }
 
-/*Test Code*/
 
 .dropdown {
 	text-align: right;
@@ -134,7 +133,6 @@ body	{
 	background: linear-gradient(#6c7c7c, #768d87);
 }
 
-
 .Page_Title {
 	text-align:center;
 	float: center;
@@ -145,18 +143,25 @@ body	{
 
 .Restaurant_Title {
 	font-size: 20px;
-
-}
-
-.image-size {
-
 }
 
 .image-size-title {
 	float: left;
 }
-	
-	 
+
+.dropdown_arrow {
+	float: right;
+	padding-top: 23px;
+}
+
+.dropdown_menu_title {
+	float: left;
+}
+
+.Menu_info {
+	float: left;
+}
+
 /*Collapsible*/
 
 .Collapsible_List {
@@ -169,6 +174,10 @@ body	{
   text-align: left;
   outline: none;
   font-size: 15px;
+}
+
+.Collapsible_List:hover {
+	background: #DD8BCB;
 }
 
 .Mini_Collapsible_List {
