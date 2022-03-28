@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>	
+<html lang="en-US">
+
+<title>Two Brothers Menu</title>
+
+<link rel="stylesheet" href="Main.css"/>
+
+		<div class="topheader">
+		<a href = "index.html"><img src = "Images/StrawberrySquare.png" alt = "Strawberry Square" width = "150" height = "150" class = "image-size-title"></a>
+		<div class="dropdown">
+				<button class="dropbtn">Vegan
+				  <i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="TwoBrothers_Menu.html">Default</a>
+				   <a href="TwoBrothers_Menu_Vegetarian.html">Vegetarian</a>
+				</div>
+			 </div> 
+		<h1 class = "Page_Title">Two Brothers Pizza</h1>
+		</div>
+		
+<body>
+
+	<h1 class = "Page_Title">Vegan</h1>
+
+	<div class = "Extra_Image_Container">
+	<img src = "Images/Vegan/Veggie_Sub.jpg" alt = "Veggie Sub" width = "350" height = "350" class = "Extra_Image"></a>
+	</div>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Appetizers</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Chips</dt>
+			<dd>$0.85</dd>
+		<dt>French Fries</dt>
+			<dd>$4.50</dd>
+		<dt>Garlic Knots</dt>
+			<dd>$7.00</dd>
+		<dt>Onion Rings</dt>
+			<dd>$5.85</dd>
+		<dt>Breaded Mushrooms</dt>
+			<dd>$6.59</dd>
+	</dl>
+</div>
+
+	<br>
+	<br>
+
+
+<button  type = "button" class= "Collapsible_List"><h2>Cold Subs</h2>
+<p><i>All Subs are made with lettuce, tomato, onions & choice of mayonaise or oil & vinegar.</i></p>
+</button>
+<div class = "content">
+
+	<dl>
+		<dt>Veggie Sub</dt>
+			<dd>$10.00</dd>
+	</dl>
+</div>
+
+	<br>
+	<br>
+
+<button  type = "button" class= "Collapsible_List"><h2>Beverages</h2></button>
+<div class = "content">
+
+	<dl>
+		<dt>Soda</dt>
+			<dd>$2.50</dd>
+		<dt>Water</dt>
+			<dd>$2.00</dd>
+	</dl>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("Collapsible_List");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+</script>
+</body>
+</html>
