@@ -62,13 +62,6 @@ img.strawberrysquare {
 }
 
 
-/* EXTRA CODE 
-div.container-inside {
-	display: grid;
-	grid-template-columns: repeat (1, 3fr);	
-}
-*/
-
 
 div.topheader {
 	overflow: hidden;
