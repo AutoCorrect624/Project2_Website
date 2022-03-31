@@ -131,6 +131,8 @@ body	{
 
 }
 
+
+
 .buttonClass {
 	font-size:15px;	
 	font-family:Arial;	
@@ -150,7 +152,7 @@ body	{
 	text-align: center;
 	background: #E38CFF;			
 	border: 3px solid #434343;
-	justify-content: center;
+
 }
 
 .buttonClass:hover {
@@ -171,6 +173,14 @@ body	{
 
 .image-size-title {
 	float: left;
+}
+
+.image-size-tacobell {
+	padding: 10px;
+}
+
+.image-size-tropical {
+	padding: 10px;
 }
 
 .dropdown_arrow {

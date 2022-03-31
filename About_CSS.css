@@ -47,25 +47,29 @@ img.Food_image {
 
 div.Main_Container {
 	text-align: center;
-	width: 80%;
 	border: solid 5px;
 	border-color: #900E74;
 	background: #DADADA;
+	width: 1200px;
 	
 }
 
 div.Main_Text {
 	display: box;
 	text-align: center;
+	
 }
 
 div.Info_Container {
-	text-align: center;
+	float: inherit;
 	padding-right: 50px;
+	width: 1500px;
 	
 }
 
 div.About_ImageContainer {
 	padding-left: 50px;
 }
+
+
 
