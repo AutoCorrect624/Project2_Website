@@ -15,7 +15,7 @@ div.Contact {
 	border: solid 5px;
 	border-color: #900E74;
 	float: right;
-	width: 60%;	
+	width: 750px;	
 	background: #DADADA;
 }
 
@@ -23,9 +23,8 @@ div.Hours {
 	border: solid 5px;
 	border-color: #900E74;
 	float: right;
-	width: 60%;
+	width: 750px;
 	background: #DADADA;
-
 }
 
 div.spacing {
@@ -37,8 +36,6 @@ div.spacing {
 .text {
 	text-align:center;
 	display: box;
-	
-
 }
 
 img.Food_image {
@@ -46,6 +43,7 @@ img.Food_image {
 	border: solid 5px;
 	border-color: #900E74;
 }
+
 
 div.Main_Container {
 	text-align: center;
@@ -60,3 +58,14 @@ div.Main_Text {
 	display: box;
 	text-align: center;
 }
+
+div.Info_Container {
+	text-align: center;
+	padding-right: 50px;
+	
+}
+
+div.About_ImageContainer {
+	padding-left: 50px;
+}
+
