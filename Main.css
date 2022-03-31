@@ -1,3 +1,35 @@
+/* Color
+
+Float-box Default = #FFD738
+Background = #C28C18
+
+silver = #DADADA
+
+Purple = #900E74
+
+Blue = #391BBD
+
+Grayish Blue = #3C3363
+
+Light purple = #D857BC
+
+Very Light Gray = #D7D7D7
+
+Dark blue = #272141
+
+Dark Purple = #790D6A
+
+Button Border Color = #434343
+
+Button  Class
+box-shadow:inset 0px 1px 25px 15px #900E74;
+	text-shadow:inset 0px -1px 0px #2b665e;
+
+ */
+
+
+
+
 
 /* Homepage */
 
@@ -70,7 +102,7 @@ div.topheader {
 
 
 body	{
-	background-color: #C28C18;
+	background-color: #3C3363;
 }
 
 .floating-box {
@@ -79,7 +111,7 @@ body	{
     height: 99%;
     margin: 5px;
     border: 5px solid;
-	background-color: #FFD738;
+	background-color:#D7D7D7;
 }
 
 .floating-box2 {
@@ -88,7 +120,7 @@ body	{
     height: 99%;
     margin: 5px;
     border: 5px solid;
-	background-color: #FFD738;
+	background-color: #D7D7D7;
 }
 
 .container{
@@ -116,11 +148,10 @@ body	{
 	box-shadow:inset 0px 1px 25px 15px #900E74;
 	text-shadow:inset 0px -1px 0px #2b665e;
 	text-align: center;
-	background:#E38CFF;
+	background: #E38CFF;			
 	border: 3px solid #434343;
 	justify-content: center;
 }
-
 
 .buttonClass:hover {
 	background: linear-gradient(#6c7c7c, #768d87);
@@ -189,12 +220,12 @@ body	{
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #FFD738;
+  background-color: #DADADA;
   width: 45%;
 }
 
 .Extra_Options {
-	font-size: 8px;
+	font-size: 12px;
 }
 
 .Extra_Options_Spacing {
