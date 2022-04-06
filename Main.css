@@ -133,7 +133,7 @@ body	{
 	font-size:15px;	
 	font-family:Arial;	
 	width:77.33px;
-	height:50px;
+	height:35px;
 	float: left;
 	border-width:1px;
 	color:#fff;
@@ -148,6 +148,7 @@ body	{
 	text-align: center;
 	background: #E38CFF;			
 	border: 3px solid #434343;
+	padding-top: 15px;
 
 }
 
