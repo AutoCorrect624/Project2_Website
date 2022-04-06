@@ -168,12 +168,20 @@ body	{
 	padding-right: 75px;
 }
 
+.Page_Title_Diet {
+	text-align: center;
+	color: white;
+	font-size: 50px;
+}
+
 .Restaurant_Title {
 	font-size: 20px;
 }
 
 .image-size-title {
 	float: left;
+	padding-left: 5px;
+	padding-top: 3px;
 }
 
 .image-size-tacobell {
