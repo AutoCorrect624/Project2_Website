@@ -156,7 +156,7 @@ body	{
 	background: linear-gradient(#6c7c7c, #768d87);
 }
 
-.Page_Title {
+h1.Page_Title {
 	text-align:center;
 	float: center;
 	justify-content: center;
@@ -178,8 +178,14 @@ body	{
 .image-size-title {
 	float: left;
 	padding-left: 5px;
+	padding-right: 5px;
 	padding-top: 3px;
 	padding-bottom: 3px;
+	
+}
+
+.image-size-title:hover {
+	background: #61104F;
 }
 
 .image-size-tacobell {
