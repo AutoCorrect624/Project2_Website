@@ -4,5 +4,24 @@ h1.Sources_Title {
 	justify-content: center;
 	color: white;
 	font-size: 50px;
-	padding-bottom: 10px;
+	padding-right: 145px;
+}
+
+div.Main_Container {
+	text-align: center;
+	border: solid 5px;
+	border-color: #900E74;
+	background: #DADADA;
+	width: 1200px;
+	
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li.list_Spacing {
+	padding: 5px;
 }
