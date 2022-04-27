@@ -210,7 +210,54 @@ h1.Page_Title {
 
 div.footer {
 	overflow: hidden;
-	background-color: #D7D7D7;
+	background-color: #900E74;
+	height: 225px;
+	color: white;
+}
+
+div.SS_Hours {
+	float:right; 
+	text-align: center;
+	padding-right: 30px;
+	padding-bottom: 20px;
+}
+
+div.SS_Address {
+	float: left;
+	text-align: center;
+	padding-left: 15px;
+	padding-top: 20px;
+}
+
+div.Footer_Links {
+	text-align: center;
+	padding-top: 35px;	
+}
+
+ul.no-bullets {
+	list-style-type: none;
+}
+
+.list_Spacing {
+	padding: 3px;
+}
+
+.SS_FooterImage {
+	padding: 3px;
+}
+
+.SS_FooterImage:hover {
+	background: #61104F;
+}
+
+.Link_Color {
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+
+.Link_Color:hover {
+	color: #B2B2B2;
 }
 
 /*Collapsible*/
