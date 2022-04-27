@@ -96,7 +96,6 @@ div.topheader {
 	background-color: #900E74;
 }
 
-
 body	{
 	background-color: #3C3363;
 }
@@ -126,8 +125,6 @@ body	{
   margin: auto;
 
 }
-
-
 
 .buttonClass {
 	font-size:15px;	
@@ -207,6 +204,13 @@ h1.Page_Title {
 
 .Menu_info {
 	float: left;
+}
+
+/*Footer*/
+
+div.footer {
+	overflow: hidden;
+	background-color: #D7D7D7;
 }
 
 /*Collapsible*/
