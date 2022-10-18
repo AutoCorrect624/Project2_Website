@@ -206,6 +206,11 @@ h1.Page_Title {
 	float: left;
 }
 
+.F_diet {
+	font-size: 25px;
+	
+}
+
 /*Footer*/
 
 div.footer {
@@ -231,7 +236,7 @@ div.SS_Address {
 
 div.Footer_Links {
 	text-align: center;
-	padding-top: 35px;	
+	padding-top: 5px;	
 }
 
 ul.no-bullets {
